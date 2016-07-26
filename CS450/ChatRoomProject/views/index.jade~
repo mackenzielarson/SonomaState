@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='//code.jquery.com/jquery-1.11.0.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/js/index.js')
+    title Chat Room Project
+  body
+    h1 CS 450 Chat Room Project 
+    p This chat room was created using Node.js, Jade & Express. Chat away! Please keep this chat PG! -Mackenzie 
+    div
+      div.inlineBlock.topAligned
+        u Participants:
+        br
+        div#participants
+    div#messages
+
+      div.inlineBlock
+        span Alias:
+          input(type="text", value="Anonymous")#name
+        form#messageForm
+          textarea(border="0", rows="4", cols="50", placeholder="Chat with us!", maxlength=140)#outgoingMessage
+    
+    
