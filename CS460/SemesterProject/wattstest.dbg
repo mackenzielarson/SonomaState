@@ -1,0 +1,168 @@
+Project 01 Python Debug output for file:	wattstest.py
+
+1	and as assert break class continue def del elif else except exec finally for
+1		AND_T	and 
+1		AS_T	as 
+1		ASSERT_T	assert 
+1		BREAK_T	break 
+1		CLASS_T	class 
+1		CONT_T	continue 
+1		DEF_T	def 
+1		DEL_T	del 
+1		ELIF_T	elif 
+1		ELSE_T	else 
+1		EXCEPT_T	except 
+1		EXEC_T	exec 
+1		FINALLY_T	finally 
+1		FOR_T	for
+
+1		FROM_T	from 
+1		GLOBAL_T	global 
+1		IF_T	if 
+1		IMPORT_T	import 
+1		IN_T	in 
+1		IS_T	is 
+1		LAMBDA_T	lambda 
+1		NOT_T	not 
+1		OR_T	or 
+1		PASS_T	pass 
+1		RAISE_T	raise 
+1		RETURN_T	return 
+1		TRY_T	try 
+1		WHILE_T	while 
+1		WITH_T	with
+
+1		YIELD_T	yield 
+1		TRUE_T	TRUE 
+1		FALSE_T	FALSE 
+1		NONE_T	None
+
+2	from global if import in is lambda not or pass raise return try while with
+2		NL_T	\n
+2		PLUS_T	+
+2		MINUS_T	-
+2		MULT_T	*
+2		EXP_T	**
+2		DIV_T	/
+2		IDIV_T	//
+2		MOD_T	%
+2		LT_T	<
+2		GT_T	>
+2		LTE_T	<=
+2		GTE_T	>=
+2		EQUAL_T	==
+2		NOTEQ_T	!=
+2		LPAREN_T	(
+2		RPAREN_T	)
+2		LBRACKET_T	[
+2		RBRACKET_T	]
+2		LBRACE_T	{
+2		RBRACE_T	}
+2		AT_T	@
+2		COMMA_T	,
+2		COLON_T	:
+2		PERIOD_T	.
+2		ASSIGN_T	=
+2		SEMI_T	;
+2		PLUSEQ_T	+=
+2		MINUSEQ_T	-=
+2		MULTEQ_T	*=
+2		DIVEQ_T	/=
+2		IDIVEQ_T	//=
+2		MODEQ_T	%=
+2		EXPEQ_T	**=
+3	yield TRUE FALSE None
+3		NL_T	\n
+4	
+4		NL_T	\n
+4		ABS_T	abs 
+4		ALL_T	all 
+4		ANY_T	any 
+4		ASCII_T	ascii 
+4		BIN_T	bin 
+4		BOOL_T	bool 
+4		BYTE_T	bytes 
+4		BYTEARR_T	bytearray 
+4		CHR_T	chr 
+4		DICT_T	dict 
+4		DIR_T	dir 
+4		DIVMD_T	divmod 
+4		ENUMR_T	enumerate 
+4		FILTR_T	filter
+
+4		FLOAT_T	float 
+4		FRMT_T	format 
+4		FZSET_T	frozenset 
+4		GATTR_T	getattr 
+4		GLBLS_T	globals 
+4		HASH_T	hash 
+4		HATTR_T	hasattr 
+4		HEX_T	hex 
+4		INPUT_T	input 
+4		INT_T	int 
+4		ITER_T	iter 
+4		LEN_T	len 
+4		 LIST_T	list
+
+4		MAP_T	map 
+4		MAX_T	max 
+4		MIN_T	min 
+4		NEXT_T	next 
+4		OBJ_T	object 
+4		OCT_T	oct 
+4		OPEN_T	open 
+4		POW_T	pow 
+4		PRINT_T	print 
+4		RANGE_T	range 
+4		ROUND_T	round 
+4		RVS_T	reversed 
+4		SET_T	set 
+4		SLICE_T	slice 
+4		SRTD_T	sorted
+
+4		STR_T	str 
+4		SUM_T	sum 
+4		SUP_T	super 
+4		TUPL_T	tuple
+
+5	+ - * ** / // % < > <= >= == != () [ ] { } @ , : .  = ; += -= *= /= //= %= **=
+5		NL_T	\n
+5		IDENT_T	These
+5		IDENT_T	are
+5		IDENT_T	some
+5		IDENT_T	identifiers
+6	
+6		NL_T	\n
+7	abs all any ascii bin bool bytes bytearray chr dict dir divmod enumerate filter
+7		NL_T	\n
+7		INTLIT_T	123
+7		MINUS_T	-
+7		INTLIT_T	456
+7		INTLIT_T	0
+7		INTLIT_T	1
+7		FLTLIT_T	.1
+7		INTLIT_T	22
+7		FLTLIT_T	.22
+7		INTLIT_T	3
+7		FLTLIT_T	.0
+7		INTLIT_T	0
+7		FLTLIT_T	.4
+7		PERIOD_T	.
+8	float format frozenset getattr globals hash hasattr hex input int iter len list
+8		NL_T	\n
+9	map max min next object oct open pow print range round reversed set slice sorted
+9		NL_T	\n
+9		STRLIT_T	"this is a string"
+10	str sum super tuple
+10		NL_T	\n
+10		STRLIT_T	'this is another string'
+11	
+11		NL_T	\n
+12	These are some identifiers
+12		NL_T	\n
+12		STRLIT_T	"a"
+12		STRLIT_T	'b'
+13	
+13		NL_T	\n
+ 
+0 Error(s) found in input file
