@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014CE6AFD4D0ADCD9FE5354D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CDE48D40B698A0F88D6D4E /* XCTest.framework */; };
+		064DC959B5C154DAE583FB50 /* Lab08HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954CCE718B7016AAC88B6DCA /* Lab08HUD.cpp */; };
+		09ADE47EA993AD4B5137EC9C /* AIEnemyController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 167C227D49AE1DF22A9670D3 /* AIEnemyController.cpp */; };
+		140E7939346D7B526D616B76 /* TopDownShmupGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1632F6FC771B88F0B647367E /* TopDownShmupGameMode.cpp */; };
+		218920EFE04144E374789075 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A259AB801A307B6AEDB99BC9 /* Weapon.cpp */; };
+		27FC515F02F02C47BA7CA1B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CDE48D40B698A0F88D6D4E /* XCTest.framework */; };
+		32D8C83D8946EA88D38D87CE /* AIDwarfController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FB93698598D3C8A044BA9 /* AIDwarfController.cpp */; };
+		401653DBE8992B25A101A34E /* AssaultWeapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3F0274D9B92692A43FFF1 /* AssaultWeapon.cpp */; };
+		4C150CCB16A6239B0752F80E /* DwarfCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D356DD6F3C2B1CC423765105 /* DwarfCharacter.cpp */; };
+		5F59FC3F945DDC18A96AA946 /* EnemyCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08F4FE12CE5BB864055CA513 /* EnemyCharacter.cpp */; };
+		71665C6627798BD8F3C6E09B /* TopDownShmupPlayerController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99F495ECD564234DD5A824B8 /* TopDownShmupPlayerController.cpp */; };
+		C4C6D628DEF83BD3D40540F3 /* TopDownShmup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99201926DB0EB9B486C9B329 /* TopDownShmup.cpp */; };
+		DBF4B51177065A546FD1DDCE /* SpawnManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 630307AAB52865F03D999F32 /* SpawnManager.cpp */; };
+		E8D91ABD8838468A6202FEB2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B0A48960FF79ABE56FC202 /* OpenGLES.framework */; };
+		EBD3C2F60ABCDE99458E4453 /* TopDownShmupCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1A9B176783D9FF6CAF514F /* TopDownShmupCharacter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FBD23EF80E8F86337F3EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F82B301152A8440F3511FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620AD17CD37F459997949521;
+			remoteInfo = "TopDownShmup - Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F4FE12CE5BB864055CA513 /* EnemyCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = EnemyCharacter.cpp; path = Source/TopDownShmup/EnemyCharacter.cpp; sourceTree = SOURCE_ROOT; };
+		1632F6FC771B88F0B647367E /* TopDownShmupGameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TopDownShmupGameMode.cpp; path = Source/TopDownShmup/TopDownShmupGameMode.cpp; sourceTree = SOURCE_ROOT; };
+		167C227D49AE1DF22A9670D3 /* AIEnemyController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AIEnemyController.cpp; path = Source/TopDownShmup/AIEnemyController.cpp; sourceTree = SOURCE_ROOT; };
+		20CC0C48A3CFC44132C06556 /* TopDownShmupEditor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = TopDownShmupEditor.Target.cs; path = Source/TopDownShmupEditor.Target.cs; sourceTree = SOURCE_ROOT; };
+		249E6E678D20A8AB2DA5950C /* TopDownShmup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopDownShmup.h; path = Source/TopDownShmup/TopDownShmup.h; sourceTree = SOURCE_ROOT; };
+		28A72D5FA3E9427667A8831D /* libUE4XcodeHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUE4XcodeHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F81C77165CEC26719BF71D /* TopDownShmup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDownShmup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4226C96F7B68869A738A6CEC /* UE4Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UE4Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A4E6F6FC44854E0260F133 /* TopDownShmup.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = TopDownShmup.Build.cs; path = Source/TopDownShmup/TopDownShmup.Build.cs; sourceTree = SOURCE_ROOT; };
+		4EC3F0274D9B92692A43FFF1 /* AssaultWeapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AssaultWeapon.cpp; path = Source/TopDownShmup/AssaultWeapon.cpp; sourceTree = SOURCE_ROOT; };
+		5C4FB93698598D3C8A044BA9 /* AIDwarfController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AIDwarfController.cpp; path = Source/TopDownShmup/AIDwarfController.cpp; sourceTree = SOURCE_ROOT; };
+		60FF03618E14A76CB68465B4 /* TopDownShmupCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopDownShmupCharacter.h; path = Source/TopDownShmup/TopDownShmupCharacter.h; sourceTree = SOURCE_ROOT; };
+		630307AAB52865F03D999F32 /* SpawnManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SpawnManager.cpp; path = Source/TopDownShmup/SpawnManager.cpp; sourceTree = SOURCE_ROOT; };
+		8CA2447BF93186A677AFE370 /* AIDwarfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AIDwarfController.h; path = Source/TopDownShmup/AIDwarfController.h; sourceTree = SOURCE_ROOT; };
+		8DAC4A1071667CEE18B3193A /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Weapon.h; path = Source/TopDownShmup/Weapon.h; sourceTree = SOURCE_ROOT; };
+		91CDE48D40B698A0F88D6D4E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93BE4DAE665D008E1FA0F9A2 /* TopDownShmupGameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopDownShmupGameMode.h; path = Source/TopDownShmup/TopDownShmupGameMode.h; sourceTree = SOURCE_ROOT; };
+		951EBE700E1E3304CD95ED30 /* Lab08HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Lab08HUD.h; path = Source/TopDownShmup/Lab08HUD.h; sourceTree = SOURCE_ROOT; };
+		954CCE718B7016AAC88B6DCA /* Lab08HUD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Lab08HUD.cpp; path = Source/TopDownShmup/Lab08HUD.cpp; sourceTree = SOURCE_ROOT; };
+		97CF3D094393E428A5BE6C9F /* TopDownShmup.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = TopDownShmup.Target.cs; path = Source/TopDownShmup.Target.cs; sourceTree = SOURCE_ROOT; };
+		99201926DB0EB9B486C9B329 /* TopDownShmup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TopDownShmup.cpp; path = Source/TopDownShmup/TopDownShmup.cpp; sourceTree = SOURCE_ROOT; };
+		99F495ECD564234DD5A824B8 /* TopDownShmupPlayerController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TopDownShmupPlayerController.cpp; path = Source/TopDownShmup/TopDownShmupPlayerController.cpp; sourceTree = SOURCE_ROOT; };
+		A259AB801A307B6AEDB99BC9 /* Weapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Weapon.cpp; path = Source/TopDownShmup/Weapon.cpp; sourceTree = SOURCE_ROOT; };
+		A47583D39BC1D423D3160307 /* AssaultWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AssaultWeapon.h; path = Source/TopDownShmup/AssaultWeapon.h; sourceTree = SOURCE_ROOT; };
+		A743184ECB60240A81B372C8 /* AIEnemyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AIEnemyController.h; path = Source/TopDownShmup/AIEnemyController.h; sourceTree = SOURCE_ROOT; };
+		BC2E49E2BEEF45A683AFFE79 /* UE4CmdLineRun.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UE4CmdLineRun.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D356DD6F3C2B1CC423765105 /* DwarfCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DwarfCharacter.cpp; path = Source/TopDownShmup/DwarfCharacter.cpp; sourceTree = SOURCE_ROOT; };
+		DC1A9B176783D9FF6CAF514F /* TopDownShmupCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TopDownShmupCharacter.cpp; path = Source/TopDownShmup/TopDownShmupCharacter.cpp; sourceTree = SOURCE_ROOT; };
+		E002071189E07B34B505D209 /* EnemyCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EnemyCharacter.h; path = Source/TopDownShmup/EnemyCharacter.h; sourceTree = SOURCE_ROOT; };
+		E0F5BA6AACDC12000E7EEE79 /* SpawnManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpawnManager.h; path = Source/TopDownShmup/SpawnManager.h; sourceTree = SOURCE_ROOT; };
+		E9F4AF7E825EF1DFD800CFF7 /* DwarfCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DwarfCharacter.h; path = Source/TopDownShmup/DwarfCharacter.h; sourceTree = SOURCE_ROOT; };
+		ED6F70175452C465C26356ED /* TopDownShmup.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; path = TopDownShmup.uproject; sourceTree = SOURCE_ROOT; };
+		F7B0A48960FF79ABE56FC202 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FBEA3E32B7B689A00DDD1B44 /* TopDownShmupPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopDownShmupPlayerController.h; path = Source/TopDownShmup/TopDownShmupPlayerController.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA558753C1C1DF0EC41C5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014CE6AFD4D0ADCD9FE5354D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D4031E8E54F84FF7628E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D91ABD8838468A6202FEB2 /* OpenGLES.framework in Frameworks */,
+				27FC515F02F02C47BA7CA1B6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB3AEDF0F0408C9A0FB2497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966B73B9958325B2DA88D623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		591C44E32F5542B07B6D7051 = {
+			isa = PBXGroup;
+			children = (
+				FA1BF3AAD9CBA6C8DA20EC8E /* Source */,
+				8032ECA7FD50E8374EA386F8 /* Products */,
+				892240E573CE189CB34D140B /* Frameworks */,
+				ED6F70175452C465C26356ED /* TopDownShmup.uproject */,
+			);
+			sourceTree = "<group>";
+		};
+		8032ECA7FD50E8374EA386F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A72D5FA3E9427667A8831D /* libUE4XcodeHelper.a */,
+				BC2E49E2BEEF45A683AFFE79 /* UE4CmdLineRun.xctest */,
+				4226C96F7B68869A738A6CEC /* UE4Game.app */,
+				39F81C77165CEC26719BF71D /* TopDownShmup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		892240E573CE189CB34D140B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7B0A48960FF79ABE56FC202 /* OpenGLES.framework */,
+				91CDE48D40B698A0F88D6D4E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF0D0015461A5F7F10109F0A /* TopDownShmup */ = {
+			isa = PBXGroup;
+			children = (
+				5C4FB93698598D3C8A044BA9 /* AIDwarfController.cpp */,
+				8CA2447BF93186A677AFE370 /* AIDwarfController.h */,
+				167C227D49AE1DF22A9670D3 /* AIEnemyController.cpp */,
+				A743184ECB60240A81B372C8 /* AIEnemyController.h */,
+				4EC3F0274D9B92692A43FFF1 /* AssaultWeapon.cpp */,
+				A47583D39BC1D423D3160307 /* AssaultWeapon.h */,
+				D356DD6F3C2B1CC423765105 /* DwarfCharacter.cpp */,
+				E9F4AF7E825EF1DFD800CFF7 /* DwarfCharacter.h */,
+				08F4FE12CE5BB864055CA513 /* EnemyCharacter.cpp */,
+				E002071189E07B34B505D209 /* EnemyCharacter.h */,
+				954CCE718B7016AAC88B6DCA /* Lab08HUD.cpp */,
+				951EBE700E1E3304CD95ED30 /* Lab08HUD.h */,
+				630307AAB52865F03D999F32 /* SpawnManager.cpp */,
+				E0F5BA6AACDC12000E7EEE79 /* SpawnManager.h */,
+				44A4E6F6FC44854E0260F133 /* TopDownShmup.Build.cs */,
+				99201926DB0EB9B486C9B329 /* TopDownShmup.cpp */,
+				249E6E678D20A8AB2DA5950C /* TopDownShmup.h */,
+				DC1A9B176783D9FF6CAF514F /* TopDownShmupCharacter.cpp */,
+				60FF03618E14A76CB68465B4 /* TopDownShmupCharacter.h */,
+				1632F6FC771B88F0B647367E /* TopDownShmupGameMode.cpp */,
+				93BE4DAE665D008E1FA0F9A2 /* TopDownShmupGameMode.h */,
+				99F495ECD564234DD5A824B8 /* TopDownShmupPlayerController.cpp */,
+				FBEA3E32B7B689A00DDD1B44 /* TopDownShmupPlayerController.h */,
+				A259AB801A307B6AEDB99BC9 /* Weapon.cpp */,
+				8DAC4A1071667CEE18B3193A /* Weapon.h */,
+			);
+			name = TopDownShmup;
+			path = Source/TopDownShmup;
+			sourceTree = "<group>";
+		};
+		FA1BF3AAD9CBA6C8DA20EC8E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BF0D0015461A5F7F10109F0A /* TopDownShmup */,
+				97CF3D094393E428A5BE6C9F /* TopDownShmup.Target.cs */,
+				20CC0C48A3CFC44132C06556 /* TopDownShmupEditor.Target.cs */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4C0AEEB6388CDD35C5F225B9 /* UE4Editor - Mac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) UE4Editor $(PLATFORM_NAME) $(CONFIGURATION)";
+			buildConfigurationList = 46627B330CAB02EBB190595F /* Build configuration list for PBXLegacyTarget "UE4Editor - Mac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.8;
+			dependencies = (
+			);
+			name = "UE4Editor - Mac";
+			passBuildSettingsInEnvironment = 0;
+			productName = "UE4Editor - Mac";
+		};
+		620AD17CD37F459997949521 /* TopDownShmup - Mac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) TopDownShmup $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/TopDownShmup.uproject\"";
+			buildConfigurationList = FC47952A8A75E1D0BC300A9D /* Build configuration list for PBXLegacyTarget "TopDownShmup - Mac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.8;
+			dependencies = (
+			);
+			name = "TopDownShmup - Mac";
+			passBuildSettingsInEnvironment = 0;
+			productName = "TopDownShmup - Mac";
+		};
+		78851F06FC4EF6805D4BA19B /* TopDownShmupEditor - Mac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) TopDownShmupEditor $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/TopDownShmup.uproject\"";
+			buildConfigurationList = 2AF3CDDA85F9C2413B53E248 /* Build configuration list for PBXLegacyTarget "TopDownShmupEditor - Mac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.8;
+			dependencies = (
+			);
+			name = "TopDownShmupEditor - Mac";
+			passBuildSettingsInEnvironment = 0;
+			productName = "TopDownShmupEditor - Mac";
+		};
+		B539BDA6C90452281C2CD795 /* UE4Game - Mac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) UE4Game $(PLATFORM_NAME) $(CONFIGURATION)";
+			buildConfigurationList = F6EF6A347F66C43EB4952451 /* Build configuration list for PBXLegacyTarget "UE4Game - Mac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.8;
+			dependencies = (
+			);
+			name = "UE4Game - Mac";
+			passBuildSettingsInEnvironment = 0;
+			productName = "UE4Game - Mac";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		07B10EDE3DACF141FA264895 /* UE4XcodeHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA5C7832D6409013F327161 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */;
+			buildPhases = (
+				8BAAA87D36562B939314C3F9 /* Sources */,
+				5FB3AEDF0F0408C9A0FB2497 /* Frameworks */,
+				114D642D9C7F9FC7BD150F58 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UE4XcodeHelper;
+			productName = UE4XcodeHelper;
+			productReference = 28A72D5FA3E9427667A8831D /* libUE4XcodeHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		219AB00F3137966DD59EFB1E /* TopDownShmup - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7789DDDFF9038CCB54ACB8D9 /* Build configuration list for PBXNativeTarget "TopDownShmup - iOS" */;
+			buildPhases = (
+				1B5A99BE825BE2B10685DBD8 /* Sources */,
+				966B73B9958325B2DA88D623 /* Frameworks */,
+				72DC17C10102D5469E9BFA27 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC059D13F3C339A5501183B8 /* PBXTargetDependency */,
+			);
+			name = "TopDownShmup - iOS";
+			productName = "TopDownShmup - iOS";
+			productReference = 39F81C77165CEC26719BF71D /* TopDownShmup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D688672D6A1BEC47AD88A6E /* UE4CmdLineRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EADE84366004839289A548 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */;
+			buildPhases = (
+				3E4AABE44FF34061FAA59C31 /* Sources */,
+				3DA558753C1C1DF0EC41C5DE /* Frameworks */,
+				558AA6F7294E8CC5C8B000A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UE4CmdLineRun;
+			productName = UE4CmdLineRun;
+			productReference = BC2E49E2BEEF45A683AFFE79 /* UE4CmdLineRun.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFFE753A5D76854B03D9AB89 /* UE4Game - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C54D6E25F988E611BE8773 /* Build configuration list for PBXNativeTarget "UE4Game - iOS" */;
+			buildPhases = (
+				60579C64312CFB6402F4F77B /* Sources */,
+				56D4031E8E54F84FF7628E09 /* Frameworks */,
+				6738E7EFDB450C93FB7D85E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UE4Game - iOS";
+			productName = "UE4Game - iOS";
+			productReference = 4226C96F7B68869A738A6CEC /* UE4Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F82B301152A8440F3511FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EpicGames;
+			};
+			buildConfigurationList = 3918D7DC451F58B04CF00C11 /* Build configuration list for PBXProject "TopDownShmup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 591C44E32F5542B07B6D7051;
+			productRefGroup = 8032ECA7FD50E8374EA386F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B10EDE3DACF141FA264895 /* UE4XcodeHelper */,
+				7D688672D6A1BEC47AD88A6E /* UE4CmdLineRun */,
+				4C0AEEB6388CDD35C5F225B9 /* UE4Editor - Mac */,
+				B539BDA6C90452281C2CD795 /* UE4Game - Mac */,
+				DFFE753A5D76854B03D9AB89 /* UE4Game - iOS */,
+				620AD17CD37F459997949521 /* TopDownShmup - Mac */,
+				219AB00F3137966DD59EFB1E /* TopDownShmup - iOS */,
+				78851F06FC4EF6805D4BA19B /* TopDownShmupEditor - Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		114D642D9C7F9FC7BD150F58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/libUE4XcodeHelper.a/ $DSTROOT/$LOCAL_APPS_DIR/libUE4XcodeHelper.a\nfi";
+		};
+		558AA6F7294E8CC5C8B000A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest/ $DSTROOT/$LOCAL_APPS_DIR/UE4CmdLineRun.xctest\nfi";
+		};
+		6738E7EFDB450C93FB7D85E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/UE4Game.app/ $DSTROOT/$LOCAL_APPS_DIR/UE4Game.app\nfi";
+		};
+		72DC17C10102D5469E9BFA27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R TopDownShmup/Binaries/IOS/Payload/TopDownShmup.app/ $DSTROOT/$LOCAL_APPS_DIR/TopDownShmup.app\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5A99BE825BE2B10685DBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4AABE44FF34061FAA59C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60579C64312CFB6402F4F77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAA87D36562B939314C3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D8C83D8946EA88D38D87CE /* AIDwarfController.cpp in Sources */,
+				09ADE47EA993AD4B5137EC9C /* AIEnemyController.cpp in Sources */,
+				401653DBE8992B25A101A34E /* AssaultWeapon.cpp in Sources */,
+				4C150CCB16A6239B0752F80E /* DwarfCharacter.cpp in Sources */,
+				5F59FC3F945DDC18A96AA946 /* EnemyCharacter.cpp in Sources */,
+				064DC959B5C154DAE583FB50 /* Lab08HUD.cpp in Sources */,
+				DBF4B51177065A546FD1DDCE /* SpawnManager.cpp in Sources */,
+				C4C6D628DEF83BD3D40540F3 /* TopDownShmup.cpp in Sources */,
+				EBD3C2F60ABCDE99458E4453 /* TopDownShmupCharacter.cpp in Sources */,
+				140E7939346D7B526D616B76 /* TopDownShmupGameMode.cpp in Sources */,
+				71665C6627798BD8F3C6E09B /* TopDownShmupPlayerController.cpp in Sources */,
+				218920EFE04144E374789075 /* Weapon.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC059D13F3C339A5501183B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620AD17CD37F459997949521 /* TopDownShmup - Mac */;
+			targetProxy = 65FBD23EF80E8F86337F3EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D8FB593C7E73A4AC150286D /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Shipping;
+		};
+		2DC8E8890C6C09D77D4988E7 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = DebugGame;
+		};
+		3277BF8ED795E3892109D843 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = "/Users/student/Documents/Unreal Projects/TopDownShmup/Binaries/IOS/Payload";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/student/Documents/Unreal Projects/TopDownShmup/Intermediate/IOS/TopDownShmup-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = "/Users/student/Documents/Unreal Projects/TopDownShmup/Intermediate/IOS/build";
+				"PRODUCT_NAME[sdk=iphoneos*]" = TopDownShmup;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "TopDownShmup-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = "/Users/student/Documents/Unreal Projects/TopDownShmup/Binaries/IOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Development;
+		};
+		3EFACAD139B43DF45041539B /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Shipping;
+		};
+		43121D327C3A123C42B19BDE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		46BC77453B920EF68BDB1B65 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"TOPDOWNSHMUP_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = Intermediate/Build;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.8/Engine/Source Source Intermediate/Build/Mac/UE4Editor/Inc/TopDownShmup /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/FeaturePack /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine Source/TopDownShmup";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		5A15C5A584AC64BE7F1B5EC8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		5F1B9B30C42F260C8DB15732 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = "/Users/student/Documents/Unreal Projects/TopDownShmup/Binaries/IOS/Payload";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/student/Documents/Unreal Projects/TopDownShmup/Intermediate/IOS/TopDownShmup-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = "/Users/student/Documents/Unreal Projects/TopDownShmup/Intermediate/IOS/build";
+				"PRODUCT_NAME[sdk=iphoneos*]" = TopDownShmup;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "TopDownShmup-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = "/Users/student/Documents/Unreal Projects/TopDownShmup/Binaries/IOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Shipping;
+		};
+		61232FDE3757A37F3123E82A /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/UE4Game-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/build;
+				"PRODUCT_NAME[sdk=iphoneos*]" = UE4Game;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "UE4Game-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = DebugGame;
+		};
+		617E0C86CE892B6E455A323E /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		6B23D5377DE453C2AFF94025 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = DebugGame;
+		};
+		7DBEBEB590062C9C08543094 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		885885536277C7E908F86E1C /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"TOPDOWNSHMUP_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = Intermediate/Build;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.8/Engine/Source Source Intermediate/Build/Mac/UE4Editor/Inc/TopDownShmup /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/FeaturePack /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine Source/TopDownShmup";
+				USE_HEADERMAP = NO;
+			};
+			name = Shipping;
+		};
+		88E79901AE098982F7634250 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		8B10EDA9B25F0697651995FE /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = "/Users/student/Documents/Unreal Projects/TopDownShmup/Binaries/IOS/Payload";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/student/Documents/Unreal Projects/TopDownShmup/Intermediate/IOS/TopDownShmup-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = "/Users/student/Documents/Unreal Projects/TopDownShmup/Intermediate/IOS/build";
+				"PRODUCT_NAME[sdk=iphoneos*]" = TopDownShmup;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "TopDownShmup-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = "/Users/student/Documents/Unreal Projects/TopDownShmup/Binaries/IOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = DebugGame;
+		};
+		8D7357E291811922B747401D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
+				COPY_PHASE_STRIP = NO;
+				DYNAMIC_NO_PIC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OBJROOT = Intermediate/IOS/build;
+				ONLY_ACTIVE_ARCH = NO;
+				OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = Binaries/IOS;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Development;
+		};
+		9140E4FDDFAC7C3BEADE1ECA /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		91B0BF8403EAC1CAD6D91C5F /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		97019536C54C69922637ED54 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/UE4Game-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/build;
+				"PRODUCT_NAME[sdk=iphoneos*]" = UE4Game;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "UE4Game-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Development;
+		};
+		C5112A7A1C24D902E09D739D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		D09E4550A31718F35A557D48 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"TOPDOWNSHMUP_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = Intermediate/Build;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.8/Engine/Source Source Intermediate/Build/Mac/UE4Editor/Inc/TopDownShmup /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/FeaturePack /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine Source/TopDownShmup";
+				USE_HEADERMAP = NO;
+			};
+			name = DebugGame;
+		};
+		D1A72AA97E7798FC95DBDCA6 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
+				COPY_PHASE_STRIP = NO;
+				DYNAMIC_NO_PIC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OBJROOT = Intermediate/IOS/build;
+				ONLY_ACTIVE_ARCH = NO;
+				OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = Binaries/IOS;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Shipping;
+		};
+		D301A35AAF950E4E2F3DDB15 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
+				COPY_PHASE_STRIP = NO;
+				DYNAMIC_NO_PIC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OBJROOT = Intermediate/IOS/build;
+				ONLY_ACTIVE_ARCH = NO;
+				OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = Binaries/IOS;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = DebugGame;
+		};
+		D8F0B5705801C940381D33BE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		F314FDAE91BEC1B7DEA8BA41 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		F6B75A6838DA13FB325E1836 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		F95DBEE24092F2F4977DA35F /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/UE4Game-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/build;
+				"PRODUCT_NAME[sdk=iphoneos*]" = UE4Game;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "UE4Game-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Shipping;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EADE84366004839289A548 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D301A35AAF950E4E2F3DDB15 /* DebugGame */,
+				8D7357E291811922B747401D /* Development */,
+				D1A72AA97E7798FC95DBDCA6 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2AF3CDDA85F9C2413B53E248 /* Build configuration list for PBXLegacyTarget "TopDownShmupEditor - Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B23D5377DE453C2AFF94025 /* DebugGame */,
+				88E79901AE098982F7634250 /* Development */,
+				3EFACAD139B43DF45041539B /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		3918D7DC451F58B04CF00C11 /* Build configuration list for PBXProject "TopDownShmup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09E4550A31718F35A557D48 /* DebugGame */,
+				46BC77453B920EF68BDB1B65 /* Development */,
+				885885536277C7E908F86E1C /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		46627B330CAB02EBB190595F /* Build configuration list for PBXLegacyTarget "UE4Editor - Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC8E8890C6C09D77D4988E7 /* DebugGame */,
+				C5112A7A1C24D902E09D739D /* Development */,
+				2D8FB593C7E73A4AC150286D /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		55C54D6E25F988E611BE8773 /* Build configuration list for PBXNativeTarget "UE4Game - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61232FDE3757A37F3123E82A /* DebugGame */,
+				97019536C54C69922637ED54 /* Development */,
+				F95DBEE24092F2F4977DA35F /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7789DDDFF9038CCB54ACB8D9 /* Build configuration list for PBXNativeTarget "TopDownShmup - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B10EDA9B25F0697651995FE /* DebugGame */,
+				3277BF8ED795E3892109D843 /* Development */,
+				5F1B9B30C42F260C8DB15732 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F6EF6A347F66C43EB4952451 /* Build configuration list for PBXLegacyTarget "UE4Game - Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F314FDAE91BEC1B7DEA8BA41 /* DebugGame */,
+				D8F0B5705801C940381D33BE /* Development */,
+				7DBEBEB590062C9C08543094 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		FBA5C7832D6409013F327161 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9140E4FDDFAC7C3BEADE1ECA /* DebugGame */,
+				5A15C5A584AC64BE7F1B5EC8 /* Development */,
+				617E0C86CE892B6E455A323E /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		FC47952A8A75E1D0BC300A9D /* Build configuration list for PBXLegacyTarget "TopDownShmup - Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B75A6838DA13FB325E1836 /* DebugGame */,
+				43121D327C3A123C42B19BDE /* Development */,
+				91B0BF8403EAC1CAD6D91C5F /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F82B301152A8440F3511FFD /* Project object */;
+}
